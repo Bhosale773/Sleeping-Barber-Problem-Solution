@@ -9,3 +9,5 @@
 <p>The Sleeping Barber Problem is often attributed to Edsger Dijkstra (1965), one of the pioneers in computer science.</p>
 <p>Many possible solutions are available. The key element of each is a mutex, which ensures that only one of the participants can change state at once. The barber must acquire/enforce this mutual exclusion (of room status) before checking for customers and release it when they begin either to sleep or cut hair. A customer must acquire it before entering the shop and release it once they are sitting in either a waiting room chair or the barber chair, and also when they leave the shop because no seats were available. This eliminates both of the problems mentioned in the previous section. A number of semaphores is also required to indicate the state of the system. For example, one might store the number of people in the waiting room.</p>
 <p>A multiple sleeping barbers problem has the additional complexity of coordinating several barbers among the waiting customers.</p>
+<h4>Solution:</h4>
+<p>Here, The above problem's solution is best explained by Python GUI</p>
